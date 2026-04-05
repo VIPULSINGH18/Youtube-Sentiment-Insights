@@ -58,7 +58,7 @@ jobs:
   deploy:
     name: Deploy to EC2
     needs: build-and-push-ecr-image
-    runs-on: yt-sentiment-runner
+    runs-on: self-hosted
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
