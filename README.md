@@ -308,7 +308,7 @@ All training runs are logged to an **MLflow Tracking Server hosted on AWS EC2**,
 
 **Access the UI:**
 ```
-http://<ec2-public-ip>:5000
+http://ec2-13-201-86-39.ap-south-1.compute.amazonaws.com:5000/
 ```
 
 ---
@@ -329,8 +329,8 @@ Pipeline config: `.github/workflows/`
 
 | Metric | Score |
 |---|---|
-| **Accuracy** | ~XX% |
-| **F1-Score (Macro)** | ~XX% |
+| **F1-Score(Weighted)** | ~78.16% |
+| **F1-Score (Macro)** | ~76.56% |
 | **Model** | LightGBM |
 | **Features** | TF-IDF Trigrams |
 | **Classes** | Positive / Negative / Neutral |
